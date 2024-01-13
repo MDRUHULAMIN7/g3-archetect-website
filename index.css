@@ -246,3 +246,34 @@ line-height: 70px; /* 107.692% */
     }
     
 }
+
+/* facts section style */
+
+.fact-container{
+    margin-left: 90px;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+   gap: 120px;
+}
+.card{
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+   width: 241.831px;
+
+
+border-radius: 8px;
+border: 1px solid #FF900E;
+}
+
+/* responsive */
+
+@media screen and (max-width: 576px) {
+    .card-container{
+        flex-direction: column;
+    }
+    
+}
