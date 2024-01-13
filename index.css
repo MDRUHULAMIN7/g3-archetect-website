@@ -1,0 +1,248 @@
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+  /* header style */
+.header {
+    background-color:rgba(236, 155, 63, 0.1);
+    padding: 50px 130px;
+   
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-title{
+    font-size: 3rem;
+    font-weight: 700;
+  
+}
+nav > ul{
+    display: flex;
+    
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+}
+
+/* baner style */
+
+.baner-content{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.baner-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: rgba(19, 19, 19, 1);
+}
+.baner-des{
+    color: rgba(114, 114, 114, 1);
+}
+.btn-1{
+    width: 150px;
+    height:39px;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    font-size: 15px;
+    border:none ;
+    text-align: center;
+font-weight: 600;
+cursor: pointer;
+border-radius: 5px;}
+.baner img{
+    margin-top: 16px;
+    width: 100%;
+}
+/* responsive */
+
+/* small device */
+@media screen and (max-width:576px){
+    .header{
+        padding: 20px;
+       
+    }
+    header nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+    }
+    
+}
+
+/* medium device */
+@media screen and (main-width:577px) and (max-width:960px) {
+    header nav{
+        flex-direction: column;}
+        .header{
+            padding: 40px;
+           
+        }
+}
+
+
+/* feature style */
+
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    gap: 50px;
+    align-items: center;
+    
+
+   
+}
+.photo-colom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.photo-colom img{
+    height: 342px;
+    width: 342px;
+}
+.des-colom{
+    align-items: center;
+    
+    
+}
+.feature-title{
+    color: var(--Dark-03, #727272);
+
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.ofuor{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.feature{
+    color: #FF900E;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.feature-des{
+    color: var(--Dark-03, #727272);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding: 10px 0px;
+}
+
+/* responsive */
+
+/* small device */
+
+@media screen and (max-width:576px) {
+    .feature-container{
+        flex-direction: column;
+        margin: 15px 0px;
+        width: 100%;
+    }
+    .photo-colom{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+
+/* medium device */
+@media screen and (min-width:577px) and (max-width:960px) {
+    .feature-container{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+/* experience section */
+
+.experience-container{
+    display: flex;
+    
+    align-items: center;
+    margin-left:  90px;
+  gap: 100px;
+} 
+.experience-des{
+     width: 500px;
+    
+}
+.experience-img{
+    margin-top: 110px;
+  max-width: 600px;
+}
+
+.ex-box{
+    width: 500px;
+height: 171px;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.btn2{
+    position: relative;
+    width: 342px;
+    height: 200px;
+    border-color:#FF900E ;
+    border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+z-index: +1;
+bottom: 130px;
+right: 75px;
+cursor: pointer;
+
+}
+.year {
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 107.692% */
+}
+
+/* responsive */
+
+@media screen and (max-width:576px) {
+    .experience-container{
+        flex-direction: column;
+    }
+    
+}
