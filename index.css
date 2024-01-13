@@ -66,12 +66,15 @@ border-radius: 5px;}
     margin-top: 16px;
     width: 100%;
 }
+.baner-title{
+    font-size: 40px;
+}
 /* responsive */
 
 /* small device */
 @media screen and (max-width:576px){
     .header{
-        padding: 20px;
+        padding: 24px;
        
     }
     header nav{
@@ -261,11 +264,13 @@ line-height: 70px; /* 107.692% */
     }
    
      .experience-img {
-       width: 100%;
+       width: 95%;
+
     }
     .btn2{
-        left: 50px;
+        left:50px;
         top:40px;
+        width: 60%;
     }
     
 }
@@ -355,7 +360,8 @@ height: 50px;
 @media screen and (max-width:576px) {
     .footer{
         width: 100%;
-        margin-left: 2px;
+        margin-left: 0px;
     }
+   
     
 }
